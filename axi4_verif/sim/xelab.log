@@ -1,0 +1,9 @@
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe work.axi4_tb -L uvm -L axi_bram_ctrl_v4_1_14 -L blk_mem_gen_v8_4_13 -sv_lib axi_scb -timescale 1ns/1ps -s top_sim -debug typical 
+Multi-threading is on. Using 12 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <axi_bram_ctrl_0> not found while processing module instance <my_bram_dut> [C:/Users/zhoua/Documents/axi4_verif/verif/axi4_tb.sv:25]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
